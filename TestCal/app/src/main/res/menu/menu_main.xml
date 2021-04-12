@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.first.testcal.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/search_by_date"
+        android:icon="@drawable/ic_baseline_calendar_today_24"
+        android:title="@string/SearchToolbar_date"
+        app:showAsAction="ifRoom"/>
+
+</menu>
